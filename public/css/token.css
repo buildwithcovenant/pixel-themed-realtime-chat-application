@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap');
 
 :root{
     --cream: #FFF8E9;
@@ -30,6 +30,10 @@
     --pixel-lg: 1rem;      /* 16px: card and section titles */
     --pixel-xl: 1.5rem;    /* 24px: page headings */
     --pixel-xxl: 2rem;     /* 32px: logo, hero headings on desktop */
+
+    /*For inputs*/
+    --input-bg: #FFFDF8;
+    --light-lavender: #F0E9FF;
 
     --leading-body: 1.5;
     --leading-pixel: 1.6;

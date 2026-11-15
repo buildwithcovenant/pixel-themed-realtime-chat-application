@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,6 +9,7 @@ body {
     font-size: var(--text-md);
     line-height: var(--leading-body);
     color: var(--plum);
+    background: var(--cream);
 }
 
 h1, h2, h3{
@@ -28,4 +29,15 @@ p {
 
 p:last-child {
     margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
 }

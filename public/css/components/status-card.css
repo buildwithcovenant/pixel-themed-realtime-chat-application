@@ -1,0 +1,7 @@
+.banner{
+    width: 100%;
+    background-color: var(--mint);
+    border: 1px solid var(--plum);
+    padding: var(--space-1);
+    margin-bottom: var(--space-3);
+}

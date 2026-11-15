@@ -1,0 +1,135 @@
+img{
+    width: 580px;
+    max-width: 100%;
+}
+
+label{
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+}
+
+input[type = "email"],
+input[type = "text"]{
+    width: 100%;
+    outline: none;
+    background-color: var(--input-bg);
+    border: 1px solid var(--plum);
+    padding: .5rem;
+    border-radius: var(--space-1);
+}
+
+input[type = "password"]{
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: var(--input-bg);
+}
+
+
+.authentication-page{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 2.625rem 3.5rem;
+}
+
+.right-panel img{
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.right-panel p{
+    overflow-wrap: anywhere;
+}
+
+.left-panel p{
+    text-transform: uppercase;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--space-1);
+    margin-bottom: var(--space-2);
+}
+
+.password-input{
+    display: flex;
+    width: 100%;
+    background-color: var(--input-bg);
+    border: 1px solid var(--plum);
+    padding: .5rem;
+    border-radius: var(--space-1);
+}
+
+.password-input i{
+    cursor: pointer;
+    color: var(--plum);
+    font-size: var(--text-sm);
+}
+
+.form-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-3);
+}
+
+.form-action{
+    display: flex;
+    gap: var(--space-1);
+    margin-bottom: var(--space-2);
+}
+
+.remember-me{
+    display: flex;
+    gap: var(--space-1);
+}
+
+.submit-btn{
+    width: 100%;
+    background-color: var(--lavender);
+    padding: .5rem;
+    border-radius: var(--space-1);
+    margin-bottom: var(--space-3);
+    border: 1px solid var(--plum);
+}
+
+.submit-btn:hover{
+    background-color: var(--light-lavender);
+    transition: all 0.3s ease;
+}
+
+.back-btn{
+    width: 100%;
+    background-color: var(--input-bg);
+    padding: .5rem;
+    border-radius: var(--space-1);
+    margin-bottom: var(--space-3);
+    border: 1px solid var(--plum);
+}
+
+.auth-navigate{
+    text-align: center;
+
+}
+
+.auth-navigate a{
+    color: var(--lavender);
+
+}
+
+/* Responsiveness */
+
+/*Tablet and mobile*/
+@media (max-width: 767px) {
+    .authentication-page{
+        grid-template-columns: 1fr;
+    }
+    .left-panel{
+        display: none;
+    }
+
+    
+}
